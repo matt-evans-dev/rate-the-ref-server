@@ -1,0 +1,49 @@
+{
+  "name": "rate-the-ref-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "dev:production": "ENVIRONMENT=production nodemon ./bin/www",
+    "eslint": "eslint ."
+  },
+  "dependencies": {
+    "@bugsnag/js": "^6.5.2",
+    "@bugsnag/plugin-express": "^6.5.1",
+    "@google/maps": "^1.1.0",
+    "axios": "^0.19.1",
+    "bull": "^3.16.0",
+    "bull-board": "^0.9.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.6.1",
+    "geolib": "^3.2.1",
+    "http-errors": "^1.7.3",
+    "ioredis": "^4.17.3",
+    "joi": "^14.3.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "pg-promise": "^10.5.8",
+    "redis": "^2.8.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "6.5.1",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.4.0",
+    "eslint-config-react-app": "5.0.2",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-react": "7.16.0",
+    "nodemon": "1.19.4",
+    "prettier": "1.18.2"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}
